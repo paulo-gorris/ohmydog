@@ -1,0 +1,63 @@
+html {
+  scroll-padding-top: 10rem;
+}
+
+body {
+  font-family: "Roboto", sans serif !important;
+}
+
+h2 {
+  font-weight: 800 !important;
+  letter-spacing: 5px;
+}
+
+#text-banner {
+  font-weight: 900;
+  font-size: 6rem;
+}
+
+.textover img {
+  width: 100%;
+}
+
+.textover {
+  max-width: 600px;
+  position: relative;
+}
+
+.textover figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  color: #333399;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(240, 234, 234, 0.8);
+}
+
+#nome,
+#email,
+#mensagem {
+  border-radius: 0.5rem;
+  border-color: #333399;
+  color: #333399;
+}
+
+#diz-ai .form-control::placeholder {
+  color: #333399;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.btn-light::button {
+  color: #333399;
+  font-weight: bold;
+  opacity: 1;
+}
+
+footer {
+  font-weight: bold;
+}
